@@ -47,4 +47,4 @@ def random_word_fixed_initial_n_size(word_size, word_initial):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=False, host='0.0.0.0')
